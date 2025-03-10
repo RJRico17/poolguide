@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+main {
+    background-color: white;
+}
+header {
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 30px;
+}
+nav {
+    display: flex;
+}
+nav > a {
+    background-color: darkgray;
+    color: white;
+    list-style-type: none;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+nav > a:hover {
+    background-color: gray;
+}
+/* HOME */
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+.intro-left {
+    padding: 15px;
+    width: 40%;
+}
+.intro-left > p {
+    font-size: larger;
+}
+.intro-right {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 60%
+}
+.message {
+    display: flex;
+    justify-content: center;
+}
+/* VIDEO */
+.heading {
+    text-align: center;
+}
+.video-article {
+    padding: 15px;
+    display: flex;
+}
+.video-article-left {
+    padding: 10px;
+    width: 50%;
+}
+.video-article-right {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+/* GLOSSARY */
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+ul > li {
+    font-size: 20px;
+    padding: 20px;
+    width: 25%;
+}
+/* CONTACT  */
+.contact {
+    border: 1px solid red;
+}
