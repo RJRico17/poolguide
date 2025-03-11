@@ -76,6 +76,7 @@
     .video-article-right {
         display: flex;
         justify-content: center;
+        height: 100%;
         width: 50%;
     }
     /* GLOSSARY */
@@ -84,6 +85,7 @@
     }
     .glossary-entry > h1 > a:link, .glossary-entry > h1 > a:visited {
         color: black;
+        text-decoration: none;
     }
     /* CONTACT */
     .contact-field {
@@ -177,9 +179,6 @@
         display: flex;
         justify-content: center;
     }
-    .message > iframe {
-        height: 100%;
-    }
     /* VIDEO */
     .heading {
         text-align: center;
@@ -198,6 +197,7 @@
     }
     .glossary-entry > h1 > a:link, .glossary-entry > h1 > a:visited {
         color: black;
+        text-decoration: none;
     }
 
     /* CONTACT */
